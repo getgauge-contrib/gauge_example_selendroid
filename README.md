@@ -11,6 +11,7 @@ For mobile test cases with Gauge and Selendroid, it is necessary to install cert
 A J​ava SDK3 (​v. 1.7 and above) needs to be installed and configured.
 
 **Android SDK**
+
 * install the A​ndroid­SDK
 This example was tested with android-sdk/24.4.1_1
 
@@ -24,12 +25,13 @@ Chocolatey installation
 https://chocolatey.org/packages/android-sdk/24.4.1.1
 ```
 
-Ensure A​NDROID_HOME is in P​ATH
+* Ensure A​NDROID_HOME is in P​ATH
 
-export ANDROID_HOME=/install_dir/android­sdk­linux export PATH=${PATH}:$ANDROID_HOME/tools
+ANDROID_HOME should point to /<install_dir>/android­sdk
 
-export PATH=${PATH}:$ANDROID_HOME/platform­tools
+add $ANDROID_HOME/tools to PATH
 
+add $ANDROID_HOME/platform­tools to PATH
 
 * Verify installation
 
