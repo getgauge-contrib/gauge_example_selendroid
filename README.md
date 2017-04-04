@@ -25,8 +25,11 @@ https://chocolatey.org/packages/android-sdk/24.4.1.1
 ```
 
 Ensure A​NDROID_HOME is in P​ATH
+
 export ANDROID_HOME=/install_dir/android­sdk­linux export PATH=${PATH}:$ANDROID_HOME/tools
+
 export PATH=${PATH}:$ANDROID_HOME/platform­tools
+
 
 * Verify installation
 
