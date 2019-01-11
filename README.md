@@ -58,7 +58,7 @@ android list avds
 The api changes in 25 to `bin\avdmanager list avds`
 
 **Gauge**
-* Install [Gauge and Gauge-Java](https://getgauge.io/get-started.html)
+* Install [Gauge and Gauge-Java](https://docs.gauge.org/latest/installation.html#installation)
 
 **To run the tests**
 -----------------
